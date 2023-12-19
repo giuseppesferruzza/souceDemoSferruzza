@@ -31,7 +31,9 @@ public class DriverSingleton {
     }
     public static void closeObjectInstance() {
         instance = null;
+        driver.close();
         driver.quit();
+
     }
     public static WebDriver getDriver() {
         return driver;

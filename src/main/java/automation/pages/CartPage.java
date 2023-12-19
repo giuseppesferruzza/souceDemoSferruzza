@@ -28,4 +28,5 @@ public class CartPage {
 
         CheckOutButton.click();
     }
+    public void clickCheckOut() {CheckOutButton.click();};
 }
